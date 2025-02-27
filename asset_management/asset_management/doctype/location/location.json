@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-27 23:12:51.623011",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3p99",
+  "location_name",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3p99",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "T\u00ean v\u1ecb tr\u00ed (Kho ch\u00ednh, Ph\u00f2ng IT, B\u00e0n l\u00e0m vi\u1ec7c s\u1ed1 10,...)",
+   "fieldname": "location_name",
+   "fieldtype": "Data",
+   "label": "Location Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-27 23:13:44.643772",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Location",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
