@@ -391,7 +391,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2025-02-28 14:17:59.846936",
+  "modified": "2025-03-03 22:06:58.347330",
   "module": "Website",
   "name": "Website",
   "number_cards": [],
@@ -407,7 +407,7 @@
     "role": "System Manager"
    }
   ],
-  "sequence_id": 14.0,
+  "sequence_id": 8.0,
   "shortcuts": [
    {
     "color": "Green",
@@ -1064,7 +1064,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2025-02-27 23:59:09.053686",
+  "modified": "2025-03-03 22:06:58.522560",
   "module": "Automation",
   "name": "Tools",
   "number_cards": [],
@@ -1080,7 +1080,7 @@
     "role": "System Manager"
    }
   ],
-  "sequence_id": 17.0,
+  "sequence_id": 10.0,
   "shortcuts": [
    {
     "color": "Grey",
@@ -1415,7 +1415,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2025-02-28 00:00:00.500048",
+  "modified": "2025-03-03 22:06:58.193096",
   "module": "Core",
   "name": "Users",
   "number_cards": [],
@@ -1431,7 +1431,7 @@
     "role": "System Manager"
    }
   ],
-  "sequence_id": 13.0,
+  "sequence_id": 6.0,
   "shortcuts": [
    {
     "color": null,
@@ -1890,7 +1890,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2025-02-27 23:58:05.142063",
+  "modified": "2025-03-03 22:06:58.679148",
   "module": "Integrations",
   "name": "Integrations",
   "number_cards": [],
@@ -1906,7 +1906,7 @@
     "role": "System Manager"
    }
   ],
-  "sequence_id": 20.0,
+  "sequence_id": 11.0,
   "shortcuts": [],
   "title": "Integrations"
  },
@@ -1918,12 +1918,12 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
+  "icon": "setting-gear",
   "indicator_color": "",
   "is_hidden": 0,
   "label": "Settings Manage",
   "links": [],
-  "modified": "2025-02-28 14:39:04.402995",
+  "modified": "2025-03-03 22:17:33.600654",
   "module": null,
   "name": "Settings Manage",
   "number_cards": [],
@@ -1931,8 +1931,15 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 8.0,
+  "roles": [
+   {
+    "parent": "Settings Manage",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   }
+  ],
+  "sequence_id": 12.0,
   "shortcuts": [],
   "title": "Settings Manage"
  },
@@ -1949,7 +1956,7 @@
   "is_hidden": 0,
   "label": "Dashboards",
   "links": [],
-  "modified": "2025-02-28 14:32:09.551331",
+  "modified": "2025-03-03 22:15:09.105044",
   "module": null,
   "name": "Dashboards",
   "number_cards": [],
@@ -1957,25 +1964,32 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 28.0,
+  "roles": [
+   {
+    "parent": "Dashboards",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   }
+  ],
+  "sequence_id": 1.0,
   "shortcuts": [],
   "title": "Dashboards"
  },
  {
   "charts": [],
-  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Device Management\"}}]",
+  "content": "[{\"id\":\"O_2p3QzIGe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Device Management</span>\",\"col\":12}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
-  "indicator_color": "green",
+  "icon": "stock",
+  "indicator_color": "",
   "is_hidden": 0,
   "label": "Device Management",
   "links": [],
-  "modified": "2025-02-28 14:38:00.150634",
+  "modified": "2025-03-03 22:15:39.857974",
   "module": null,
   "name": "Device Management",
   "number_cards": [],
@@ -1983,8 +1997,15 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 9.0,
+  "roles": [
+   {
+    "parent": "Device Management",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   }
+  ],
+  "sequence_id": 2.0,
   "shortcuts": [],
   "title": "Device Management"
  },
@@ -1996,12 +2017,12 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
-  "indicator_color": "green",
+  "icon": "income",
+  "indicator_color": "",
   "is_hidden": 0,
   "label": "Asset Assignments",
   "links": [],
-  "modified": "2025-02-28 14:38:06.807129",
+  "modified": "2025-03-03 22:16:04.169097",
   "module": null,
   "name": "Asset Assignments",
   "number_cards": [],
@@ -2009,8 +2030,15 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 10.0,
+  "roles": [
+   {
+    "parent": "Asset Assignments",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   }
+  ],
+  "sequence_id": 3.0,
   "shortcuts": [],
   "title": "Asset Assignments"
  },
@@ -2022,12 +2050,12 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
-  "indicator_color": "blue",
+  "icon": "tool",
+  "indicator_color": "",
   "is_hidden": 0,
   "label": "Maintenance & Repairs",
   "links": [],
-  "modified": "2025-02-28 14:38:12.858626",
+  "modified": "2025-03-03 22:16:31.815574",
   "module": null,
   "name": "Maintenance & Repairs",
   "number_cards": [],
@@ -2035,8 +2063,21 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 11.0,
+  "roles": [
+   {
+    "parent": "Maintenance & Repairs",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   },
+   {
+    "parent": "Maintenance & Repairs",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Employee"
+   }
+  ],
+  "sequence_id": 4.0,
   "shortcuts": [],
   "title": "Maintenance & Repairs"
  },
@@ -2048,12 +2089,12 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
-  "indicator_color": "green",
+  "icon": "retail",
+  "indicator_color": "",
   "is_hidden": 0,
   "label": "Disposal & Retirement",
   "links": [],
-  "modified": "2025-02-28 14:38:18.285735",
+  "modified": "2025-03-03 22:16:53.214189",
   "module": null,
   "name": "Disposal & Retirement",
   "number_cards": [],
@@ -2061,8 +2102,15 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 12.0,
+  "roles": [
+   {
+    "parent": "Disposal & Retirement",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   }
+  ],
+  "sequence_id": 5.0,
   "shortcuts": [],
   "title": "Disposal & Retirement"
  },
@@ -2074,12 +2122,12 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
-  "indicator_color": "green",
+  "icon": "file",
+  "indicator_color": "",
   "is_hidden": 0,
   "label": "Reports & Analytics",
   "links": [],
-  "modified": "2025-02-28 14:38:23.196317",
+  "modified": "2025-03-03 22:17:12.413517",
   "module": null,
   "name": "Reports & Analytics",
   "number_cards": [],
@@ -2087,8 +2135,15 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 13.0,
+  "roles": [
+   {
+    "parent": "Reports & Analytics",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   }
+  ],
+  "sequence_id": 7.0,
   "shortcuts": [],
   "title": "Reports & Analytics"
  },
@@ -2126,12 +2181,12 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "",
-  "indicator_color": "cyan",
+  "icon": "assets",
+  "indicator_color": "",
   "is_hidden": 0,
   "label": "My Devices",
   "links": [],
-  "modified": "2025-02-28 14:38:29.116155",
+  "modified": "2025-03-03 22:17:51.937800",
   "module": null,
   "name": "My Devices",
   "number_cards": [],
@@ -2139,8 +2194,15 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 14.0,
+  "roles": [
+   {
+    "parent": "My Devices",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Employee"
+   }
+  ],
+  "sequence_id": 9.0,
   "shortcuts": [],
   "title": "My Devices"
  },
@@ -2157,7 +2219,7 @@
   "is_hidden": 0,
   "label": "Help & Support",
   "links": [],
-  "modified": "2025-02-28 14:34:02.581081",
+  "modified": "2025-03-03 22:18:12.671955",
   "module": null,
   "name": "Help & Support",
   "number_cards": [],
@@ -2165,8 +2227,21 @@
   "public": 1,
   "quick_lists": [],
   "restrict_to_domain": null,
-  "roles": [],
-  "sequence_id": 29.0,
+  "roles": [
+   {
+    "parent": "Help & Support",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "IT Manager"
+   },
+   {
+    "parent": "Help & Support",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Employee"
+   }
+  ],
+  "sequence_id": 14.0,
   "shortcuts": [],
   "title": "Help & Support"
  },
@@ -2724,7 +2799,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2025-02-27 23:59:29.062912",
+  "modified": "2025-03-03 22:06:58.828826",
   "module": "Core",
   "name": "Build",
   "number_cards": [],
@@ -2740,7 +2815,7 @@
     "role": "System Manager"
    }
   ],
-  "sequence_id": 27.0,
+  "sequence_id": 13.0,
   "shortcuts": [
    {
     "color": "Grey",
